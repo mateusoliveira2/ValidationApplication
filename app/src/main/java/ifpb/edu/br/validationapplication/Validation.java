@@ -15,6 +15,7 @@ public class Validation {
     static String end = "[0-9a-zA-ZáàâãéèêíïóôõöúüçñÁÀÂÃÉÈÍÏÓÔÕÖÚÜÇÑ .,/-ºª: ]*";
 
 
+    //Valida nome de acordo com regras de espaçamento e caracteres
     public static boolean nomeValidate(String s){
         boolean v = false;
         if(!s.isEmpty()) {
